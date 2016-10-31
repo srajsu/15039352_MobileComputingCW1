@@ -18,10 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-8y-esc">
-                                <frame key="frameInset" minX="29" minY="510" width="69" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="YeD-1Q-DMo">
                                 <frame key="frameInset" minX="95" minY="510" width="69" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -40,10 +36,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="80i-Kc-Ehe">
                                 <frame key="frameInset" minX="153" minY="424" width="69" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plate" translatesAutoresizingMaskIntoConstraints="NO" id="ldz-1Z-9YM">
-                                <frame key="frameInset" minX="67" minY="539" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-FQ-pL0">
@@ -104,9 +96,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Number9"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-8y-esc">
+                                <frame key="frameInset" minX="29" minY="510" width="69" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plate" translatesAutoresizingMaskIntoConstraints="NO" id="ldz-1Z-9YM">
+                                <frame key="frameInset" minX="67" minY="539" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Apple1" destination="aKL-FQ-pL0" id="zrd-KW-Mrv"/>
+                        <outlet property="Apple2" destination="3r1-ih-xfS" id="tZN-2N-3La"/>
+                        <outlet property="Apple3" destination="80i-Kc-Ehe" id="qB6-Ab-Jfp"/>
+                        <outlet property="Apple4" destination="f2E-d7-kM7" id="y11-Gu-clb"/>
+                        <outlet property="Apple5" destination="JG9-8y-esc" id="gRS-gt-dlH"/>
+                        <outlet property="Apple6" destination="YeD-1Q-DMo" id="Rup-BG-icJ"/>
+                        <outlet property="Apple7" destination="WfB-hO-nWM" id="udF-Yf-GDz"/>
+                        <outlet property="Apple8" destination="gqZ-qe-bTp" id="Vog-EF-cvC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
