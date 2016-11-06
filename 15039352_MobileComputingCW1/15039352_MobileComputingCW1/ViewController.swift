@@ -11,16 +11,36 @@ import UIKit
 class ViewController: UIViewController {
 
     //Declaring the numbers as buttons
-    @IBAction func Number0(_ sender: AnyObject) {}
-    @IBAction func Number1(_ sender: AnyObject) {}
-    @IBAction func Number2(_ sender: AnyObject) {}
-    @IBAction func Number3(_ sender: AnyObject) {}
-    @IBAction func Number4(_ sender: AnyObject) {}
-    @IBAction func Number5(_ sender: AnyObject) {}
-    @IBAction func Number6(_ sender: AnyObject) {}
-    @IBAction func Number7(_ sender: AnyObject) {}
-    @IBAction func Number8(_ sender: AnyObject) {}
-    @IBAction func Number9(_ sender: AnyObject) {}
+    @IBAction func Number0(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number1(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number2(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number3(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number4(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number5(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number6(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number7(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number8(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
+    @IBAction func Number9(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
+        calcAns(userAnswer: userInput!)
+    }
     
     //Declaring the Apple images
     @IBOutlet weak var Apple1: UIImageView!
@@ -33,9 +53,39 @@ class ViewController: UIViewController {
     @IBOutlet weak var Apple8: UIImageView!
     
     
+    //Declaring the labels which will be used for the addition
+    
+    @IBOutlet weak var lblNoOne: UILabel!
+    @IBOutlet weak var lblNoTwo: UILabel!
+    @IBOutlet weak var lblAns: UILabel!
+    @IBOutlet weak var lblResult: UILabel!
+        
+    @IBAction func calcAns(userAnswer : Int)
+    {
+        
+        let value1 = Int(lblNoOne.text!)
+        let value2 = Int(lblNoTwo.text!)
+        
+        let sum = Int(value1! + value2!)
+        
+        lblAns.text = String(sum)
+        
+        if ( Int(sum) == Int(userAnswer)){
+            lblResult.text = "success"
+            
+        }
+        else {
+            lblResult.text = "fail"
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Generating a random number to be displayed in both labels
+        lblNoOne.text = String(arc4random_uniform(4))
+        lblNoTwo.text = String(arc4random_uniform(4))
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

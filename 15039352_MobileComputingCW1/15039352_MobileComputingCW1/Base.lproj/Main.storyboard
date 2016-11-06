@@ -53,7 +53,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZV-mr-KEe">
                                 <frame key="frameInset" minX="13" minY="28" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number0"/>
+                                <state key="normal" title="0" image="Number0"/>
                                 <connections>
                                     <action selector="Number0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdP-HL-tSL"/>
                                 </connections>
@@ -61,7 +61,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gx-9P-VAu">
                                 <frame key="frameInset" minX="83" minY="28" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number1"/>
+                                <state key="normal" title="1" image="Number1"/>
                                 <connections>
                                     <action selector="Number1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N4L-2z-zma"/>
                                 </connections>
@@ -69,7 +69,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nID-X5-6p8">
                                 <frame key="frameInset" minX="152" minY="28" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number2"/>
+                                <state key="normal" title="2" image="Number2"/>
                                 <connections>
                                     <action selector="Number2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Nl-TD-tvX"/>
                                 </connections>
@@ -77,7 +77,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsR-Q0-vPj">
                                 <frame key="frameInset" minX="224" minY="28" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number3"/>
+                                <state key="normal" title="3" image="Number3"/>
                                 <connections>
                                     <action selector="Number3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SkD-yR-dHg"/>
                                 </connections>
@@ -85,7 +85,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMB-5t-A3V">
                                 <frame key="frameInset" minX="294" minY="28" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number4"/>
+                                <state key="normal" title="4" image="Number4"/>
                                 <connections>
                                     <action selector="Number4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJ9-UG-ZKE"/>
                                 </connections>
@@ -93,7 +93,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWt-oc-nHc">
                                 <frame key="frameInset" minX="13" minY="98" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number5"/>
+                                <state key="normal" title="5" image="Number5"/>
                                 <connections>
                                     <action selector="Number5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxh-j2-vVb"/>
                                 </connections>
@@ -101,7 +101,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4w-bs-LHf">
                                 <frame key="frameInset" minX="83" minY="98" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number6"/>
+                                <state key="normal" title="6" image="Number6"/>
                                 <connections>
                                     <action selector="Number6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lIP-OD-lf3"/>
                                 </connections>
@@ -109,7 +109,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpQ-cK-RJP">
                                 <frame key="frameInset" minX="152" minY="98" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number7"/>
+                                <state key="normal" title="7" image="Number7"/>
                                 <connections>
                                     <action selector="Number7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7xr-xs-bev"/>
                                 </connections>
@@ -117,7 +117,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oze-64-1pY">
                                 <frame key="frameInset" minX="224" minY="98" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number8"/>
+                                <state key="normal" title="8" image="Number8"/>
                                 <connections>
                                     <action selector="Number8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ix-1f-BrH"/>
                                 </connections>
@@ -125,7 +125,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-07-0IS">
                                 <frame key="frameInset" minX="294" minY="98" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Number9"/>
+                                <state key="normal" title="9" image="Number9"/>
                                 <connections>
                                     <action selector="Number9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a64-YY-e0v"/>
                                 </connections>
@@ -134,6 +134,55 @@
                                 <frame key="frameInset" minX="83" minY="545" width="69" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x2-Ih-6QY">
+                                <frame key="frameInset" minX="16" minY="227" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOc-FX-xky">
+                                <frame key="frameInset" minX="114" minY="227" width="18" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXF-zr-d4A">
+                                <frame key="frameInset" minX="173" minY="224" width="56" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpB-QB-sKy">
+                                <frame key="frameInset" minX="262" minY="227" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lw6-VF-J63">
+                                <frame key="frameInset" minX="313" minY="218" width="23" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypy-iT-u1y">
+                                <frame key="frameInset" minX="259" minY="325" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaD-47-Tro">
+                                <frame key="frameInset" minX="254" minY="373" width="105" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -146,6 +195,10 @@
                         <outlet property="Apple6" destination="YeD-1Q-DMo" id="Rup-BG-icJ"/>
                         <outlet property="Apple7" destination="WfB-hO-nWM" id="udF-Yf-GDz"/>
                         <outlet property="Apple8" destination="gqZ-qe-bTp" id="Vog-EF-cvC"/>
+                        <outlet property="lblAns" destination="lw6-VF-J63" id="UmS-8L-91p"/>
+                        <outlet property="lblNoOne" destination="1x2-Ih-6QY" id="XUs-MY-gFY"/>
+                        <outlet property="lblNoTwo" destination="tXF-zr-d4A" id="Oim-V2-QAF"/>
+                        <outlet property="lblResult" destination="FaD-47-Tro" id="2Mz-6T-MAf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
