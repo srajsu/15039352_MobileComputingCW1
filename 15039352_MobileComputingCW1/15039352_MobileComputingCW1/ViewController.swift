@@ -45,11 +45,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblAns: UILabel!
     @IBOutlet weak var lblResult: UILabel!
 
-    
+    //Declaring flashing star imageview
+    @IBOutlet weak var star1: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //Flash animation for star1
+        star1.animationImages = [
+            UIImage(named: "star_yellow.png")!,
+            UIImage(named: "star_pink.png")!,
+            UIImage(named: "star_green.png")!,
+            UIImage(named: "star_purple.jpg")!,
+            UIImage(named: "star_blue.png")!]
+        star1.animationDuration=2
+        star1.startAnimating()
         
         
         print(alertSound0)
@@ -338,7 +350,7 @@ class ViewController: UIViewController {
   //      self.viewAnswer.isHidden = true
         //self.loadView()
  //   }
- 
+
   
     @IBAction func btnPlayAgain(_ sender: UIButton) {
         self.viewAnswer.isHidden = true

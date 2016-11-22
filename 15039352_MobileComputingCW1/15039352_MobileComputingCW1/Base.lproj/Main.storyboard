@@ -195,6 +195,10 @@
                                             <action selector="btnPlayAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb9-ot-32q"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-Nh-w1f">
+                                        <frame key="frameInset" minX="32" minY="500" width="80" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -214,6 +218,7 @@
                         <outlet property="lblNoOne" destination="1x2-Ih-6QY" id="XUs-MY-gFY"/>
                         <outlet property="lblNoTwo" destination="tXF-zr-d4A" id="Oim-V2-QAF"/>
                         <outlet property="lblResult" destination="FaD-47-Tro" id="2Mz-6T-MAf"/>
+                        <outlet property="star1" destination="Vec-Nh-w1f" id="DLY-wo-r2H"/>
                         <outlet property="viewAnswer" destination="RMU-0h-Ipy" id="jTT-UG-b4h"/>
                     </connections>
                 </viewController>
