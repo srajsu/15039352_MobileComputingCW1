@@ -14,6 +14,17 @@
 		693ADA3D1DC7D1D800F75B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693ADA3B1DC7D1D800F75B79 /* LaunchScreen.storyboard */; };
 		693ADA481DC7D1D800F75B79 /* _5039352_MobileComputingCW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693ADA471DC7D1D800F75B79 /* _5039352_MobileComputingCW1Tests.swift */; };
 		693ADA531DC7D1D800F75B79 /* _5039352_MobileComputingCW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693ADA521DC7D1D800F75B79 /* _5039352_MobileComputingCW1UITests.swift */; };
+		693ADBAA1DE4D63A00F75B79 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693ADBA91DE4D63A00F75B79 /* AVFoundation.framework */; };
+		693ADBAD1DE4D7B100F75B79 /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBAC1DE4D7B100F75B79 /* one.mp3 */; };
+		693ADBAF1DE4D7C200F75B79 /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBAE1DE4D7C200F75B79 /* two.mp3 */; };
+		693ADBB81DE4D7F900F75B79 /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB01DE4D7F900F75B79 /* eight.mp3 */; };
+		693ADBB91DE4D7F900F75B79 /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB11DE4D7F900F75B79 /* five.mp3 */; };
+		693ADBBA1DE4D7F900F75B79 /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB21DE4D7F900F75B79 /* four.mp3 */; };
+		693ADBBB1DE4D7F900F75B79 /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB31DE4D7F900F75B79 /* nine.mp3 */; };
+		693ADBBC1DE4D7F900F75B79 /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB41DE4D7F900F75B79 /* seven.mp3 */; };
+		693ADBBD1DE4D7F900F75B79 /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB51DE4D7F900F75B79 /* six.mp3 */; };
+		693ADBBE1DE4D7F900F75B79 /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB61DE4D7F900F75B79 /* three.mp3 */; };
+		693ADBBF1DE4D7F900F75B79 /* zero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADBB71DE4D7F900F75B79 /* zero.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		693ADA4E1DC7D1D800F75B79 /* 15039352_MobileComputingCW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 15039352_MobileComputingCW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		693ADA521DC7D1D800F75B79 /* _5039352_MobileComputingCW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _5039352_MobileComputingCW1UITests.swift; sourceTree = "<group>"; };
 		693ADA541DC7D1D800F75B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693ADBA91DE4D63A00F75B79 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		693ADBAC1DE4D7B100F75B79 /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = one.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/one.mp3; sourceTree = "<group>"; };
+		693ADBAE1DE4D7C200F75B79 /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = two.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/two.mp3; sourceTree = "<group>"; };
+		693ADBB01DE4D7F900F75B79 /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eight.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/eight.mp3; sourceTree = "<group>"; };
+		693ADBB11DE4D7F900F75B79 /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = five.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/five.mp3; sourceTree = "<group>"; };
+		693ADBB21DE4D7F900F75B79 /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = four.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/four.mp3; sourceTree = "<group>"; };
+		693ADBB31DE4D7F900F75B79 /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nine.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/nine.mp3; sourceTree = "<group>"; };
+		693ADBB41DE4D7F900F75B79 /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = seven.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/seven.mp3; sourceTree = "<group>"; };
+		693ADBB51DE4D7F900F75B79 /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = six.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/six.mp3; sourceTree = "<group>"; };
+		693ADBB61DE4D7F900F75B79 /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = three.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/three.mp3; sourceTree = "<group>"; };
+		693ADBB71DE4D7F900F75B79 /* zero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zero.mp3; path = ../../../Downloads/Spoken_Numbers_MP3/zero.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693ADBAA1DE4D63A00F75B79 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 				693ADA461DC7D1D800F75B79 /* 15039352_MobileComputingCW1Tests */,
 				693ADA511DC7D1D800F75B79 /* 15039352_MobileComputingCW1UITests */,
 				693ADA301DC7D1D800F75B79 /* Products */,
+				693ADBA81DE4D63A00F75B79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +121,7 @@
 		693ADA311DC7D1D800F75B79 /* 15039352_MobileComputingCW1 */ = {
 			isa = PBXGroup;
 			children = (
+				693ADBAB1DE4D79100F75B79 /* Supporting Files */,
 				693ADA321DC7D1D800F75B79 /* AppDelegate.swift */,
 				693ADA341DC7D1D800F75B79 /* ViewController.swift */,
 				693ADA361DC7D1D800F75B79 /* Main.storyboard */,
@@ -123,6 +148,31 @@
 				693ADA541DC7D1D800F75B79 /* Info.plist */,
 			);
 			path = 15039352_MobileComputingCW1UITests;
+			sourceTree = "<group>";
+		};
+		693ADBA81DE4D63A00F75B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				693ADBA91DE4D63A00F75B79 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693ADBAB1DE4D79100F75B79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				693ADBB31DE4D7F900F75B79 /* nine.mp3 */,
+				693ADBB01DE4D7F900F75B79 /* eight.mp3 */,
+				693ADBB41DE4D7F900F75B79 /* seven.mp3 */,
+				693ADBB51DE4D7F900F75B79 /* six.mp3 */,
+				693ADBB11DE4D7F900F75B79 /* five.mp3 */,
+				693ADBB21DE4D7F900F75B79 /* four.mp3 */,
+				693ADBB61DE4D7F900F75B79 /* three.mp3 */,
+				693ADBAE1DE4D7C200F75B79 /* two.mp3 */,
+				693ADBAC1DE4D7B100F75B79 /* one.mp3 */,
+				693ADBB71DE4D7F900F75B79 /* zero.mp3 */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +284,17 @@
 			files = (
 				693ADA3D1DC7D1D800F75B79 /* LaunchScreen.storyboard in Resources */,
 				693ADA3A1DC7D1D800F75B79 /* Assets.xcassets in Resources */,
+				693ADBBB1DE4D7F900F75B79 /* nine.mp3 in Resources */,
+				693ADBBD1DE4D7F900F75B79 /* six.mp3 in Resources */,
+				693ADBBA1DE4D7F900F75B79 /* four.mp3 in Resources */,
+				693ADBBC1DE4D7F900F75B79 /* seven.mp3 in Resources */,
+				693ADBB81DE4D7F900F75B79 /* eight.mp3 in Resources */,
 				693ADA381DC7D1D800F75B79 /* Main.storyboard in Resources */,
+				693ADBAF1DE4D7C200F75B79 /* two.mp3 in Resources */,
+				693ADBAD1DE4D7B100F75B79 /* one.mp3 in Resources */,
+				693ADBB91DE4D7F900F75B79 /* five.mp3 in Resources */,
+				693ADBBE1DE4D7F900F75B79 /* three.mp3 in Resources */,
+				693ADBBF1DE4D7F900F75B79 /* zero.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +565,7 @@
 				693ADA591DC7D1D800F75B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		693ADA5A1DC7D1D800F75B79 /* Build configuration list for PBXNativeTarget "15039352_MobileComputingCW1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +574,7 @@
 				693ADA5C1DC7D1D800F75B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		693ADA5D1DC7D1D800F75B79 /* Build configuration list for PBXNativeTarget "15039352_MobileComputingCW1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +583,7 @@
 				693ADA5F1DC7D1D800F75B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

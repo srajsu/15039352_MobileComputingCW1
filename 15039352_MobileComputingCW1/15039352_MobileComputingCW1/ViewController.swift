@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -22,6 +23,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var viewAnswer: UIView!
     
+    //Declaring number number variable
+    var AudioPlayer = AVAudioPlayer()
+    
+    // Declare alertSound at the instance level for use by other functions.
+    let alertSound = URL(fileURLWithPath: Bundle.main.path(forResource: "one", ofType: "mp3")!)
     
     //Declaring the labels which will be used for the addition
     
@@ -31,9 +37,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblResult: UILabel!
 
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print(alertSound)
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+        }
+        catch {
+            print("ERROR: \(error.localizedDescription)")
+        }
+    
+
         
         //Generating a random number to be displayed in both labels
         lblNoOne.text = String(arc4random_uniform(4))
@@ -45,10 +65,31 @@ class ViewController: UIViewController {
     //Declaring the numbers as buttons
     @IBAction func Number0(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
         calcAns(userAnswer: userInput!)
+        
+        do {
+            AudioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            AudioPlayer.prepareToPlay()
+            AudioPlayer.play()
+        }
+        catch {
+            print("ERROR: \(error.localizedDescription)")
+        }
+
+        
     }
     
     @IBAction func Number1(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
         calcAns(userAnswer: userInput!)
+        
+        do {
+            AudioPlayer = try AVAudioPlayer(contentsOf: alertSound)
+            AudioPlayer.prepareToPlay()
+            AudioPlayer.play()
+        }
+        catch {
+            print("ERROR: \(error.localizedDescription)")
+        }
+
     }
     @IBAction func Number2(_ sender: UIButton) {let userInput = Int(sender.currentTitle!)
         calcAns(userAnswer: userInput!)
@@ -76,6 +117,7 @@ class ViewController: UIViewController {
     }
     
     
+    
     @IBAction func calcAns(userAnswer : Int)
     {
         
@@ -84,7 +126,7 @@ class ViewController: UIViewController {
         
         let sum = Int(value1! + value2!)
         
-        lblAns.text = String(sum)
+        //lblAns.text = String(sum)
         
         if ( Int(sum) == Int(userAnswer)){
            self.viewAnswer.isHidden = false
