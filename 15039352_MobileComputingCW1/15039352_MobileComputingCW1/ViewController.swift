@@ -26,6 +26,10 @@ class ViewController: UIViewController {
     //Declaring number number variable
     var AudioPlayer = AVAudioPlayer()
     
+    //Declaring background music variable
+    var backgroundMusicPlayer = AVAudioPlayer()
+    
+    
     // Declare alertSound* at the instance level for use by other functions.
     let alertSound0 = URL(fileURLWithPath: Bundle.main.path(forResource: "zero", ofType: "mp3")!)
     let alertSound1 = URL(fileURLWithPath: Bundle.main.path(forResource: "one", ofType: "mp3")!)
@@ -52,6 +56,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // Do any additional setup after loading the view, typically from a nib.
+        func playBackgroundMusic(filename: String) {
+            let url = Bundle.main.url(forResource: "wheels", withExtension: "mp3")
+            guard let newURL = url else {
+                print("Could not find file: \(filename)")
+                return
+            }
+            do {
+                backgroundMusicPlayer = try AVAudioPlayer(contentsOf: newURL)
+                backgroundMusicPlayer.numberOfLoops = -1
+                backgroundMusicPlayer.prepareToPlay()
+                backgroundMusicPlayer.play()
+            } catch let error as NSError {
+                print(error.description)
+            }}
+        
+        playBackgroundMusic(filename: "wheels.mp3")
         
         //Flash animation for star1
         star1.animationImages = [

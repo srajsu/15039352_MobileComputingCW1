@@ -30,6 +30,7 @@
 		693ADC4E1DE4E8A300F75B79 /* star_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC491DE4E8A300F75B79 /* star_pink.png */; };
 		693ADC4F1DE4E8A300F75B79 /* star_purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC4A1DE4E8A300F75B79 /* star_purple.jpg */; };
 		693ADC501DE4E8A300F75B79 /* star_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC4B1DE4E8A300F75B79 /* star_yellow.png */; };
+		693ADC931DE784B100F75B79 /* wheels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC921DE784B100F75B79 /* wheels.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		693ADC491DE4E8A300F75B79 /* star_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_pink.png; path = ../../../Downloads/star_pink.png; sourceTree = "<group>"; };
 		693ADC4A1DE4E8A300F75B79 /* star_purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star_purple.jpg; path = ../../../Downloads/star_purple.jpg; sourceTree = "<group>"; };
 		693ADC4B1DE4E8A300F75B79 /* star_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_yellow.png; path = ../../../Downloads/star_yellow.png; sourceTree = "<group>"; };
+		693ADC921DE784B100F75B79 /* wheels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wheels.mp3; path = ../../../Downloads/wheels.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		693ADBAB1DE4D79100F75B79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				693ADC911DE784A500F75B79 /* mp3 */,
 				693ADC461DE4E88F00F75B79 /* stars */,
 				693ADBB31DE4D7F900F75B79 /* nine.mp3 */,
 				693ADBB01DE4D7F900F75B79 /* eight.mp3 */,
@@ -196,6 +199,14 @@
 				693ADC4B1DE4E8A300F75B79 /* star_yellow.png */,
 			);
 			name = stars;
+			sourceTree = "<group>";
+		};
+		693ADC911DE784A500F75B79 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				693ADC921DE784B100F75B79 /* wheels.mp3 */,
+			);
+			name = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +332,7 @@
 				693ADBB91DE4D7F900F75B79 /* five.mp3 in Resources */,
 				693ADBBE1DE4D7F900F75B79 /* three.mp3 in Resources */,
 				693ADC501DE4E8A300F75B79 /* star_yellow.png in Resources */,
+				693ADC931DE784B100F75B79 /* wheels.mp3 in Resources */,
 				693ADBBF1DE4D7F900F75B79 /* zero.mp3 in Resources */,
 				693ADC4C1DE4E8A300F75B79 /* star_blue.png in Resources */,
 			);
