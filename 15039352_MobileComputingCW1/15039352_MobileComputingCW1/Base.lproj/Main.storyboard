@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -50,56 +52,8 @@
                                 <frame key="frameInset" minX="114" minY="551" width="69" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZV-mr-KEe">
-                                <frame key="frameInset" minX="13" minY="28" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="0" image="Number0"/>
-                                <connections>
-                                    <action selector="Number0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdP-HL-tSL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gx-9P-VAu">
-                                <frame key="frameInset" minX="83" minY="28" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1" image="Number1"/>
-                                <connections>
-                                    <action selector="Number1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N4L-2z-zma"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nID-X5-6p8">
-                                <frame key="frameInset" minX="152" minY="28" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2" image="Number2"/>
-                                <connections>
-                                    <action selector="Number2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Nl-TD-tvX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsR-Q0-vPj">
-                                <frame key="frameInset" minX="224" minY="28" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3" image="Number3"/>
-                                <connections>
-                                    <action selector="Number3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SkD-yR-dHg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMB-5t-A3V">
-                                <frame key="frameInset" minX="294" minY="28" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="4" image="Number4"/>
-                                <connections>
-                                    <action selector="Number4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJ9-UG-ZKE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWt-oc-nHc">
-                                <frame key="frameInset" minX="13" minY="98" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="5" image="Number5"/>
-                                <connections>
-                                    <action selector="Number5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxh-j2-vVb"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4w-bs-LHf">
-                                <frame key="frameInset" minX="83" minY="98" width="60" height="60"/>
+                                <frame key="frameInset" minX="94" minY="242" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="6" image="Number6"/>
                                 <connections>
@@ -107,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpQ-cK-RJP">
-                                <frame key="frameInset" minX="152" minY="98" width="60" height="60"/>
+                                <frame key="frameInset" minX="163" minY="242" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="7" image="Number7"/>
                                 <connections>
@@ -115,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oze-64-1pY">
-                                <frame key="frameInset" minX="224" minY="98" width="60" height="60"/>
+                                <frame key="frameInset" minX="235" minY="242" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="8" image="Number8"/>
                                 <connections>
@@ -123,7 +77,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-07-0IS">
-                                <frame key="frameInset" minX="294" minY="98" width="60" height="60"/>
+                                <frame key="frameInset" minX="305" minY="242" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="9" image="Number9"/>
                                 <connections>
@@ -183,27 +137,94 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RMU-0h-Ipy">
-                                <frame key="frameInset" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpM-63-DHZ">
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fS-pH-PBC">
-                                        <frame key="frameInset" minX="98" minY="183" width="154" height="161"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button" image="PlayAgain"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZV-mr-KEe">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="cZV-mr-KEe" secondAttribute="height" multiplier="1:1" id="IEN-9q-qFz"/>
+                                        </constraints>
+                                        <state key="normal" title="0" image="Number0"/>
                                         <connections>
-                                            <action selector="btnPlayAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb9-ot-32q"/>
+                                            <action selector="Number0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdP-HL-tSL"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-Nh-w1f">
-                                        <frame key="frameInset" minX="32" minY="500" width="80" height="85"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWt-oc-nHc">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="EWt-oc-nHc" secondAttribute="height" multiplier="1:1" id="AeG-fg-xZ1"/>
+                                        </constraints>
+                                        <state key="normal" title="5" image="Number5"/>
+                                        <connections>
+                                            <action selector="Number5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxh-j2-vVb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gx-9P-VAu">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="9Gx-9P-VAu" secondAttribute="height" multiplier="1:1" id="JPJ-RY-S1C"/>
+                                        </constraints>
+                                        <state key="normal" title="1" image="Number1"/>
+                                        <connections>
+                                            <action selector="Number1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N4L-2z-zma"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nID-X5-6p8">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="nID-X5-6p8" secondAttribute="height" multiplier="1:1" id="2yc-OY-5Bq"/>
+                                        </constraints>
+                                        <state key="normal" title="2" image="Number2"/>
+                                        <connections>
+                                            <action selector="Number2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Nl-TD-tvX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsR-Q0-vPj">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="jsR-Q0-vPj" secondAttribute="height" multiplier="1:1" id="COs-hM-lJR"/>
+                                        </constraints>
+                                        <state key="normal" title="3" image="Number3"/>
+                                        <connections>
+                                            <action selector="Number3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SkD-yR-dHg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMB-5t-A3V">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="zMB-5t-A3V" secondAttribute="height" multiplier="1:1" id="0pq-Op-9AR"/>
+                                        </constraints>
+                                        <state key="normal" title="4" image="Number4"/>
+                                        <connections>
+                                            <action selector="Number4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJ9-UG-ZKE"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="EWt-oc-nHc" firstAttribute="leading" secondItem="GpM-63-DHZ" secondAttribute="leading" constant="5" id="04B-NX-shf"/>
+                                    <constraint firstItem="EWt-oc-nHc" firstAttribute="top" secondItem="cZV-mr-KEe" secondAttribute="bottom" constant="17" id="145-uy-OOK"/>
+                                    <constraint firstItem="jsR-Q0-vPj" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="1rB-Xo-W9n"/>
+                                    <constraint firstItem="nID-X5-6p8" firstAttribute="top" secondItem="GpM-63-DHZ" secondAttribute="top" id="38e-ck-Paw"/>
+                                    <constraint firstItem="9Gx-9P-VAu" firstAttribute="leading" secondItem="cZV-mr-KEe" secondAttribute="trailing" constant="18.333333333333329" id="6Ak-Qa-NsX"/>
+                                    <constraint firstItem="cZV-mr-KEe" firstAttribute="top" secondItem="GpM-63-DHZ" secondAttribute="top" id="DgY-UW-bMi"/>
+                                    <constraint firstItem="cZV-mr-KEe" firstAttribute="leading" secondItem="GpM-63-DHZ" secondAttribute="leading" constant="5" id="HhU-qY-glU"/>
+                                    <constraint firstItem="EWt-oc-nHc" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="Ly1-x4-gby"/>
+                                    <constraint firstAttribute="trailing" secondItem="zMB-5t-A3V" secondAttribute="trailing" constant="14" id="N2q-9b-EjI"/>
+                                    <constraint firstItem="jsR-Q0-vPj" firstAttribute="leading" secondItem="nID-X5-6p8" secondAttribute="trailing" constant="22" id="RQo-eU-rxq"/>
+                                    <constraint firstItem="cZV-mr-KEe" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="YTL-G9-J32"/>
+                                    <constraint firstItem="9Gx-9P-VAu" firstAttribute="top" secondItem="GpM-63-DHZ" secondAttribute="top" id="bAJ-to-J9I"/>
+                                    <constraint firstItem="9Gx-9P-VAu" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="ddj-m8-Nch"/>
+                                    <constraint firstItem="nID-X5-6p8" firstAttribute="leading" secondItem="9Gx-9P-VAu" secondAttribute="trailing" constant="21" id="pPG-GE-1yt"/>
+                                    <constraint firstItem="zMB-5t-A3V" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="qNJ-GX-iqd"/>
+                                    <constraint firstItem="jsR-Q0-vPj" firstAttribute="top" secondItem="GpM-63-DHZ" secondAttribute="top" id="qdc-Sf-BLC"/>
+                                    <constraint firstItem="zMB-5t-A3V" firstAttribute="top" secondItem="GpM-63-DHZ" secondAttribute="top" id="v9u-qF-BQz"/>
+                                    <constraint firstItem="nID-X5-6p8" firstAttribute="width" secondItem="GpM-63-DHZ" secondAttribute="width" multiplier="0.15" id="xrZ-m4-iyG"/>
+                                    <constraint firstItem="zMB-5t-A3V" firstAttribute="leading" secondItem="jsR-Q0-vPj" secondAttribute="trailing" constant="23" id="zgH-bA-xk6"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GpM-63-DHZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="7kx-4F-yAk"/>
+                            <constraint firstItem="GpM-63-DHZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DuD-Zt-C4s"/>
+                            <constraint firstItem="GpM-63-DHZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IgV-GM-LRS"/>
+                            <constraint firstAttribute="trailing" secondItem="GpM-63-DHZ" secondAttribute="trailing" id="jSA-jt-hrA"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Apple1" destination="aKL-FQ-pL0" id="zrd-KW-Mrv"/>
@@ -223,6 +244,25 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view hidden="YES" contentMode="scaleToFill" id="RMU-0h-Ipy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fS-pH-PBC">
+                            <frame key="frameInset" minX="98" minY="183" width="154" height="161"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button" image="PlayAgain"/>
+                            <connections>
+                                <action selector="btnPlayAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb9-ot-32q"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-Nh-w1f">
+                            <frame key="frameInset" minX="32" minY="500" width="80" height="85"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </objects>
             <point key="canvasLocation" x="96.799999999999997" y="122.78860569715144"/>
         </scene>
