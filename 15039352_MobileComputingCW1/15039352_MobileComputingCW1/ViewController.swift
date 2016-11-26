@@ -51,6 +51,11 @@ class ViewController: UIViewController {
 
     //Declaring flashing star imageview
     @IBOutlet weak var star1: UIImageView!
+    @IBOutlet weak var star2: UIImageView!
+    
+    //Declaring UIimage gif animation
+    @IBOutlet weak var flashanimation: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -84,6 +89,23 @@ class ViewController: UIViewController {
         star1.animationDuration=2
         star1.startAnimating()
         
+        //Flash animation for star2
+        star2.animationImages = [
+            UIImage(named: "star_yellow.png")!,
+            UIImage(named: "star_pink.png")!,
+            UIImage(named: "star_green.png")!,
+            UIImage(named: "star_purple.jpg")!,
+            UIImage(named: "star_blue.png")!]
+        star2.animationDuration=2
+        star2.startAnimating()
+        
+        //Flash animation for cartoon
+        flashanimation.animationImages = [
+            UIImage(named: "Jcartoon1copy.png")!,
+            UIImage(named: "Jcartoon2.tiff")!]
+        flashanimation.animationDuration=1
+        flashanimation.startAnimating()
+
         
         print(alertSound0)
         do {

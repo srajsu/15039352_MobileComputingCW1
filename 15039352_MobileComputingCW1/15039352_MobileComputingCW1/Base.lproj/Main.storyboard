@@ -163,13 +163,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXF-zr-d4A">
-                                <frame key="frameInset" minX="188" minY="218" width="56" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpB-QB-sKy">
                                 <frame key="frameInset" minX="277" minY="221" width="11" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -184,16 +177,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXF-zr-d4A">
+                                <frame key="frameInset" minX="171" minY="218" width="56" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9nO-Zv-dYF">
-                                <frame key="frameInset" minY="332" width="375" height="335"/>
+                                <frame key="frameInset" minY="295" width="375" height="372"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMg-5e-2dL">
-                                        <frame key="frameInset" width="375" height="128"/>
+                                        <frame key="frameInset" width="375" height="164"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drag apples to this section" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Va-3L-HAg">
-                                                <frame key="frameInset" minX="85" minY="54" width="205" height="21"/>
+                                                <frame key="frameInset" minX="85" minY="72" width="205" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -203,58 +203,44 @@
                                         <color key="backgroundColor" red="0.11634705715529475" green="0.3987540602684021" blue="0.28486516269999701" alpha="0.38103945035460995" colorSpace="calibratedRGB"/>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plate" translatesAutoresizingMaskIntoConstraints="NO" id="ldz-1Z-9YM">
-                                        <frame key="frameInset" minX="49" minY="231" width="277" height="132"/>
+                                        <frame key="frameInset" minX="49" minY="255" width="277" height="132"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="3r1-ih-xfS" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="66" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="66" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-FQ-pL0" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="174" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="174" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="80i-Kc-Ehe" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="143" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="143" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="f2E-d7-kM7" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="239" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="238" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="gqZ-qe-bTp" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="211" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="210" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="WfB-hO-nWM" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="113" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="113" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="YeD-1Q-DMo" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="82" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="82" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Apple" translatesAutoresizingMaskIntoConstraints="NO" id="JG9-8y-esc" customClass="DragImage" customModule="_5039352_MobileComputingCW1" customModuleProvider="target">
-                                        <frame key="frameInset" minX="190" minY="241" width="69" height="71"/>
+                                        <frame key="frameInset" minX="189" minY="265" width="69" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypy-iT-u1y">
-                                <frame key="frameInset" minX="84" minY="279" width="100" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaD-47-Tro">
-                                <frame key="frameInset" minX="200" minY="280" width="105" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -273,11 +259,12 @@
                         <outlet property="Apple6" destination="YeD-1Q-DMo" id="Rup-BG-icJ"/>
                         <outlet property="Apple7" destination="WfB-hO-nWM" id="udF-Yf-GDz"/>
                         <outlet property="Apple8" destination="gqZ-qe-bTp" id="Vog-EF-cvC"/>
+                        <outlet property="flashanimation" destination="hc0-Hb-TPh" id="L8z-mj-7FO"/>
                         <outlet property="lblAns" destination="lw6-VF-J63" id="UmS-8L-91p"/>
                         <outlet property="lblNoOne" destination="1x2-Ih-6QY" id="XUs-MY-gFY"/>
                         <outlet property="lblNoTwo" destination="tXF-zr-d4A" id="Oim-V2-QAF"/>
-                        <outlet property="lblResult" destination="FaD-47-Tro" id="2Mz-6T-MAf"/>
                         <outlet property="star1" destination="Vec-Nh-w1f" id="DLY-wo-r2H"/>
+                        <outlet property="star2" destination="0ml-b1-VWs" id="gKo-FY-kfI"/>
                         <outlet property="viewAnswer" destination="RMU-0h-Ipy" id="jTT-UG-b4h"/>
                     </connections>
                 </viewController>
@@ -287,7 +274,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fS-pH-PBC">
-                            <frame key="frameInset" minX="98" minY="183" width="154" height="161"/>
+                            <frame key="frameInset" minX="104" minY="264" width="154" height="161"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button" image="PlayAgain"/>
                             <connections>
@@ -295,7 +282,33 @@
                             </connections>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-Nh-w1f">
-                            <frame key="frameInset" minX="32" minY="500" width="80" height="85"/>
+                            <frame key="frameInset" minX="16" minY="28" width="80" height="85"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ml-b1-VWs">
+                            <frame key="frameInset" minX="279" minY="28" width="80" height="85"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Well Done!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbE-t9-yox">
+                            <frame key="frameInset" minX="104" minY="153" width="166" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Correct" translatesAutoresizingMaskIntoConstraints="NO" id="GpB-vB-tKT">
+                            <frame key="frameInset" minY="128" width="74" height="69"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click here to play again." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxX-CZ-X0S">
+                            <frame key="frameInset" minX="6" minY="216" width="351" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hc0-Hb-TPh">
+                            <frame key="frameInset" minX="108" minY="472" width="159" height="128"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                     </subviews>
@@ -307,6 +320,7 @@
     </scenes>
     <resources>
         <image name="Apple" width="256" height="256"/>
+        <image name="Correct" width="256" height="256"/>
         <image name="Number0" width="256" height="256"/>
         <image name="Number1" width="256" height="256"/>
         <image name="Number2" width="256" height="256"/>
