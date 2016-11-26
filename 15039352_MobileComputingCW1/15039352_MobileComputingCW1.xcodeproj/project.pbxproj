@@ -31,6 +31,8 @@
 		693ADC4F1DE4E8A300F75B79 /* star_purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC4A1DE4E8A300F75B79 /* star_purple.jpg */; };
 		693ADC501DE4E8A300F75B79 /* star_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC4B1DE4E8A300F75B79 /* star_yellow.png */; };
 		693ADC931DE784B100F75B79 /* wheels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 693ADC921DE784B100F75B79 /* wheels.mp3 */; };
+		693ADD4F1DE9CAB500F75B79 /* Jumping-Cartoon-Animated-Picture.gif in Resources */ = {isa = PBXBuildFile; fileRef = 693ADD4E1DE9CAB500F75B79 /* Jumping-Cartoon-Animated-Picture.gif */; };
+		693ADD511DE9CAE500F75B79 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693ADD501DE9CAE500F75B79 /* DragImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		693ADC4A1DE4E8A300F75B79 /* star_purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star_purple.jpg; path = ../../../Downloads/star_purple.jpg; sourceTree = "<group>"; };
 		693ADC4B1DE4E8A300F75B79 /* star_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_yellow.png; path = ../../../Downloads/star_yellow.png; sourceTree = "<group>"; };
 		693ADC921DE784B100F75B79 /* wheels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wheels.mp3; path = ../../../Downloads/wheels.mp3; sourceTree = "<group>"; };
+		693ADD4E1DE9CAB500F75B79 /* Jumping-Cartoon-Animated-Picture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Jumping-Cartoon-Animated-Picture.gif"; path = "../../../Downloads/Jumping-Cartoon-Animated-Picture.gif"; sourceTree = "<group>"; };
+		693ADD501DE9CAE500F75B79 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		693ADA261DC7D1D800F75B79 = {
 			isa = PBXGroup;
 			children = (
+				693ADD501DE9CAE500F75B79 /* DragImage.swift */,
 				693ADA311DC7D1D800F75B79 /* 15039352_MobileComputingCW1 */,
 				693ADA461DC7D1D800F75B79 /* 15039352_MobileComputingCW1Tests */,
 				693ADA511DC7D1D800F75B79 /* 15039352_MobileComputingCW1UITests */,
@@ -175,16 +180,6 @@
 			children = (
 				693ADC911DE784A500F75B79 /* mp3 */,
 				693ADC461DE4E88F00F75B79 /* stars */,
-				693ADBB31DE4D7F900F75B79 /* nine.mp3 */,
-				693ADBB01DE4D7F900F75B79 /* eight.mp3 */,
-				693ADBB41DE4D7F900F75B79 /* seven.mp3 */,
-				693ADBB51DE4D7F900F75B79 /* six.mp3 */,
-				693ADBB11DE4D7F900F75B79 /* five.mp3 */,
-				693ADBB21DE4D7F900F75B79 /* four.mp3 */,
-				693ADBB61DE4D7F900F75B79 /* three.mp3 */,
-				693ADBAE1DE4D7C200F75B79 /* two.mp3 */,
-				693ADBAC1DE4D7B100F75B79 /* one.mp3 */,
-				693ADBB71DE4D7F900F75B79 /* zero.mp3 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +187,7 @@
 		693ADC461DE4E88F00F75B79 /* stars */ = {
 			isa = PBXGroup;
 			children = (
+				693ADD4E1DE9CAB500F75B79 /* Jumping-Cartoon-Animated-Picture.gif */,
 				693ADC471DE4E8A300F75B79 /* star_blue.png */,
 				693ADC481DE4E8A300F75B79 /* star_green.png */,
 				693ADC491DE4E8A300F75B79 /* star_pink.png */,
@@ -205,6 +201,16 @@
 			isa = PBXGroup;
 			children = (
 				693ADC921DE784B100F75B79 /* wheels.mp3 */,
+				693ADBB31DE4D7F900F75B79 /* nine.mp3 */,
+				693ADBB01DE4D7F900F75B79 /* eight.mp3 */,
+				693ADBB41DE4D7F900F75B79 /* seven.mp3 */,
+				693ADBB51DE4D7F900F75B79 /* six.mp3 */,
+				693ADBB11DE4D7F900F75B79 /* five.mp3 */,
+				693ADBB21DE4D7F900F75B79 /* four.mp3 */,
+				693ADBB61DE4D7F900F75B79 /* three.mp3 */,
+				693ADBAE1DE4D7C200F75B79 /* two.mp3 */,
+				693ADBAC1DE4D7B100F75B79 /* one.mp3 */,
+				693ADBB71DE4D7F900F75B79 /* zero.mp3 */,
 			);
 			name = mp3;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 				693ADBBD1DE4D7F900F75B79 /* six.mp3 in Resources */,
 				693ADC4F1DE4E8A300F75B79 /* star_purple.jpg in Resources */,
 				693ADBBA1DE4D7F900F75B79 /* four.mp3 in Resources */,
+				693ADD4F1DE9CAB500F75B79 /* Jumping-Cartoon-Animated-Picture.gif in Resources */,
 				693ADBBC1DE4D7F900F75B79 /* seven.mp3 in Resources */,
 				693ADBB81DE4D7F900F75B79 /* eight.mp3 in Resources */,
 				693ADA381DC7D1D800F75B79 /* Main.storyboard in Resources */,
@@ -360,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				693ADA351DC7D1D800F75B79 /* ViewController.swift in Sources */,
+				693ADD511DE9CAE500F75B79 /* DragImage.swift in Sources */,
 				693ADA331DC7D1D800F75B79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
