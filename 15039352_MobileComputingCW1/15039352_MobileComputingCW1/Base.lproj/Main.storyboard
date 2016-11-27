@@ -20,7 +20,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpM-63-DHZ">
@@ -344,9 +344,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hc0-Hb-TPh">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jcartoon1copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="hc0-Hb-TPh">
                                         <constraints>
                                             <constraint firstAttribute="height" constant="105" id="1Ng-br-Kad"/>
+                                            <constraint firstAttribute="width" secondItem="hc0-Hb-TPh" secondAttribute="height" multiplier="9:7" id="Wj0-H2-hmI"/>
                                             <constraint firstAttribute="width" constant="135" id="ro0-35-Ze8"/>
                                         </constraints>
                                     </imageView>
@@ -369,9 +370,10 @@
                                     <constraint firstItem="Vec-Nh-w1f" firstAttribute="top" secondItem="0ml-b1-VWs" secondAttribute="top" id="coQ-NO-LW5"/>
                                     <constraint firstAttribute="bottom" secondItem="hc0-Hb-TPh" secondAttribute="bottom" constant="101" id="hyb-7I-ke4"/>
                                     <constraint firstItem="GpB-vB-tKT" firstAttribute="top" secondItem="Vec-Nh-w1f" secondAttribute="bottom" constant="15" id="ji4-yD-GMh"/>
-                                    <constraint firstItem="GpB-vB-tKT" firstAttribute="width" secondItem="gxX-CZ-X0S" secondAttribute="height" multiplier="1:1" id="tta-S4-cY6"/>
                                     <constraint firstItem="Vec-Nh-w1f" firstAttribute="bottom" secondItem="0ml-b1-VWs" secondAttribute="bottom" id="uzw-ns-yvA"/>
+                                    <constraint firstItem="GpB-vB-tKT" firstAttribute="width" secondItem="hc0-Hb-TPh" secondAttribute="height" multiplier="8:21" constant="25" id="vy2-dd-zJi"/>
                                     <constraint firstItem="hc0-Hb-TPh" firstAttribute="leading" secondItem="LbE-t9-yox" secondAttribute="leading" id="xbf-la-kdC"/>
+                                    <constraint firstItem="LbE-t9-yox" firstAttribute="leading" secondItem="GpB-vB-tKT" secondAttribute="trailing" constant="39" id="y2P-0b-B5D"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -427,6 +429,7 @@
     <resources>
         <image name="Apple" width="256" height="256"/>
         <image name="Correct" width="256" height="256"/>
+        <image name="Jcartoon1copy.png" width="800" height="600"/>
         <image name="Number0" width="256" height="256"/>
         <image name="Number1" width="256" height="256"/>
         <image name="Number2" width="256" height="256"/>
