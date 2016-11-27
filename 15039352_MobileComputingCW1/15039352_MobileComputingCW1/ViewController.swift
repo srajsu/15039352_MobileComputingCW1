@@ -64,19 +64,8 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        //self.reloadApp()
-        
-        //func reloadApp()
-        //{
-            //lblNoOne.text = String(arc4random_uniform(4))
-            //lblNoTwo.text = String(arc4random_uniform(4))
-            //self.viewAnswer.isHidden = true
-            
-            //lblAns.textColor = UIColor.black
-        //}
-        
-        
+    super.viewDidLoad()
+
         //
         self.viewAnswer.isHidden = true
         appleview.isHidden = false
@@ -371,14 +360,11 @@ class ViewController: UIViewController {
             
         }
         else {
-        lblAns.textColor=UIColor.red
-            
-
-        }
+            //Turn label text to red to show the user that answer is not correct
+            lblAns.textColor=UIColor.red
+            }
+        
     }
-    
-   
-    
        
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
