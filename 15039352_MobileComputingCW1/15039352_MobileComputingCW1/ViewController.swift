@@ -11,6 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    //Declaring views
+    @IBOutlet weak var NumbersView: UIView!
+    @IBOutlet weak var DragAreaView: UIView!
+    @IBOutlet weak var appleview: UIView!
+    
     //Declaring the Apple images
     @IBOutlet weak var Apple1: UIImageView!
     @IBOutlet weak var Apple2: UIImageView!
@@ -42,12 +47,13 @@ class ViewController: UIViewController {
     let alertSound8 = URL(fileURLWithPath: Bundle.main.path(forResource: "eight", ofType: "mp3")!)
     let alertSound9 = URL(fileURLWithPath: Bundle.main.path(forResource: "nine", ofType: "mp3")!)
     
+    @IBOutlet weak var draggableView: UIView!
     
     //Declaring the labels which will be used for the addition
     @IBOutlet weak var lblNoOne: UILabel!
     @IBOutlet weak var lblNoTwo: UILabel!
     @IBOutlet weak var lblAns: UILabel!
-    @IBOutlet weak var lblResult: UILabel!
+    //@IBOutlet weak var lblResult: UILabel!
 
     //Declaring flashing star imageview
     @IBOutlet weak var star1: UIImageView!
@@ -59,11 +65,27 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //self.reloadApp()
         
+        //func reloadApp()
+        //{
+            //lblNoOne.text = String(arc4random_uniform(4))
+            //lblNoTwo.text = String(arc4random_uniform(4))
+            //self.viewAnswer.isHidden = true
+            
+            //lblAns.textColor = UIColor.black
+        //}
+        
+        
+        //
+        self.viewAnswer.isHidden = true
+        appleview.isHidden = false
+        NumbersView.isHidden = false
+        
+    
         // Do any additional setup after loading the view, typically from a nib.
         func playBackgroundMusic(filename: String) {
-            let url = Bundle.main.url(forResource: "wheels", withExtension: "mp3")
+            let url = Bundle.main.url(forResource: "background", withExtension: "mp3")
             guard let newURL = url else {
                 print("Could not find file: \(filename)")
                 return
@@ -77,7 +99,7 @@ class ViewController: UIViewController {
                 print(error.description)
             }}
         
-        playBackgroundMusic(filename: "wheels.mp3")
+        playBackgroundMusic(filename: "background.mp3")
         
         //Flash animation for star1
         star1.animationImages = [
@@ -344,10 +366,14 @@ class ViewController: UIViewController {
         
         if ( Int(sum) == Int(userAnswer)){
            self.viewAnswer.isHidden = false
+            self.appleview.isHidden = true
+           self.NumbersView.isHidden = true
             
         }
         else {
-            lblResult.text = "fail"
+        lblAns.textColor=UIColor.red
+            
+
         }
     }
     
@@ -396,9 +422,14 @@ class ViewController: UIViewController {
 
   
     @IBAction func btnPlayAgain(_ sender: UIButton) {
-        self.viewAnswer.isHidden = true
-        self.loadView()
+       self.appleview.setNeedsLayout()
+       self.draggableView.setNeedsLayout()
+        self.draggableView.setNeedsDisplay()
+        self.appleview.setNeedsDisplay()
+
         viewDidLoad()
+                
+    
         
     }
     
