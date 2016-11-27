@@ -71,7 +71,8 @@ class ViewController: UIViewController {
         appleview.isHidden = false
         NumbersView.isHidden = false
         
-    
+        lblAns.textColor=UIColor.black
+        
         // Do any additional setup after loading the view, typically from a nib.
         func playBackgroundMusic(filename: String) {
             let url = Bundle.main.url(forResource: "background", withExtension: "mp3")
